@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>IPLT-B.P.Hasdeu</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            IPLT B.P.HASDEU
+            <i class="fa fa-university logo" aria-hidden="true"></i>
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="index.html">Home
+                <i class="fa fa-home" aria-hidden="true"></i>
+            </a>
+            <a href="pages/evenimente.html">Evenimente
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+            </a>
+            <a href="pages/contacte.html">Contacte
+                <i class="fa fa-phone" aria-hidden="true"></i>
+            </a>
+        </aside>
+
+        <main>
+            <h2 class="title"> Contacte</h2>
+            <div class="row">
+                <div class="col-50">
+                    <h3> Contactează-ne dacă:</h3>
+                    <ul class="contact-list">
+                        <li>Dorești să adaugi un eveniment</li>
+                        <li>Cauți un loc de voluntariat</li>
+                        <li>Depui cerea de admitere la liceu</li>
+                        <li>Depui cerere de eliberare</li>
+                    </ul>
+                </div>
+
+                <div class="col-50">
+                    <h3> Datele de contact :</h3>
+                    <ul class="contact-list">
+                        <li><b>Secretara:</b>06978253</li>
+                        <li><b>Telefon la școală</b> 0242-52-7-92</li>
+                        <li><b>Adresa</b>s.Olanesti,Alexandru cel Bun 34</li>
+                        <li><b>Orele de lucru</b> 9:00-17:00</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.620865347092!2d29.920365115036784!3d46.495819279126636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c866fe85437e13%3A0x4be166ec08d113f!2sLiceul%20Teoretic%20%22Bogdan%20Petriceicu%20Ha%C5%9Fdeu%22!5e0!3m2!1sro!2s!4v1627226184754!5m2!1sro!2s"
+                        width="600" height="450"  allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                
+                <div class="col-50">
+                 <div class="contact-form">
+                     <form>
+                         <h3 class="center">Lasă un mesaj</h3>
+                         <input type="text" placeholder="NumePrenume" required/>
+                         <input type="email" placeholder="Email" required/>
+                         <textarea rows="3" placeholder="Mesaj" required></textarea>
+                         <input type="submit" value="Transmite"/>
+                        </form>
+                 </div>
+
+                 </div>
+            </div>
+        </main>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
