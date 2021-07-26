@@ -1,4 +1,4 @@
-@import url ('https://fonts.googleapis.com/css2? family = Raleway: wght @ 100 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -18,7 +18,7 @@ body{
 }
 header{
     height: 70px;
-    background-color: 	#5F9EA0;
+    background: linear-gradient(to right, rgb(45 119 109), rgb(42 39 95));
     position: fixed;
     width: 100%;
     padding-top: 20px;
@@ -42,7 +42,7 @@ aside{
     height: 100vh;
  
     position: fixed;
-    background: linear-gradient(to bottom,rgb(0,255,255),rgb(0,255,0));
+    background: linear-gradient(to bottom, rgb(45 119 109), rgb(42 39 95));
     padding-top: 10px;
     font-size: 20px;
   
@@ -63,7 +63,7 @@ aside a{
 }
 p{
     line-height: 170%;
-    border-left: 6px solid #ff533d;
+    border-left: 6px solid rgb(42 39 95);
     padding-left: 12px;
 }
 .rol{
@@ -85,7 +85,7 @@ p{
 .col-100{ width: 100%;}
 
 .title{
-    border-bottom: 4px solid #ff533d;
+    border-bottom: 4px solid rgb(42 39 95);
     margin-bottom: 5px;
     margin-top: 10px;
     display: inline-block;
@@ -123,18 +123,18 @@ p{
 }
 .event{
     padding: 0px 15px 15px 15px;
-    background-image: url("https://blog.robertorossi.ro/wp-content/uploads/2019/09/plante-de-toamna-1200x900.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.514), rgba(255, 255, 255, 0.514)), url("https://blog.robertorossi.ro/wp-content/uploads/2019/09/plante-de-toamna-1200x900.jpg");
     border-radius: 5px;
-    border: 1px solid #ff533d;
+    border: 1px solid rgb(42 39 95);
     height: 250px;
     overflow-y: scroll;
 
 }
 .event1{
     padding: 0px 15px 15px 15px;
-    background-image: url("https://lh3.googleusercontent.com/proxy/NlyIqXTZrjvQDG_Y8doLDVUc5f5lmO7noXG_mYGbmQeNE6uQuSdCQrXCZSh_qSQhl8X6iStvxmgx4y9zuJ2PnKkhvlPvLTEOvutCc2MakTQAcyXjxbZE4_s8gCOXRDfCxCk");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.514), rgba(255, 255, 255, 0.514)),  url("https://lh3.googleusercontent.com/proxy/NlyIqXTZrjvQDG_Y8doLDVUc5f5lmO7noXG_mYGbmQeNE6uQuSdCQrXCZSh_qSQhl8X6iStvxmgx4y9zuJ2PnKkhvlPvLTEOvutCc2MakTQAcyXjxbZE4_s8gCOXRDfCxCk");
     border-radius: 5px;
-    border: 1px solid #ff533d;
+    border: 1px solid rgb(42 39 95);
     height: 250px;
     overflow-y: scroll;
 
@@ -142,32 +142,32 @@ p{
 .event2{
     
     padding: 0px 15px 15px 15px;
-    background-image: url("https://cdn.alba24.ro/wp-content/uploads/2016/06/profesor-scoala-elev-ora-clasa.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.514), rgba(255, 255, 255, 0.514)),  url("https://cdn.alba24.ro/wp-content/uploads/2016/06/profesor-scoala-elev-ora-clasa.jpg");
     border-radius: 5px;
-    border: 1px solid #ff533d;
+    border: 1px solid rgb(42 39 95);
     height: 250px;
     overflow-y: scroll;
 
 }
 .event3{
     padding: 0px 15px 15px 15px;
-    background-image: url("https://www.timpul.md/uploads/modules/news/2012/12/39617/635x0_magia_sarbatorilor_de_craciun1.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.314), rgba(255, 255, 255, 0.314)),  url("https://www.timpul.md/uploads/modules/news/2012/12/39617/635x0_magia_sarbatorilor_de_craciun1.jpg");
     border-radius: 5px;
-    border: 1px solid #ff533d;
+    border: 1px solid rgb(42 39 95);
     height: 250px;
     overflow-y: scroll;
 
 }
 .contact-list{
     line-height: 200%;
-    list-style:linear-gradient(#ff533d,#ff533d );
+    list-style:linear-gradient(rgb(42 39 95),rgb(42 39 95) );
 }
 .map {
 width: 100%;
 max-width: 480px;
 height: 290px;
 border-radius: 5px;
-border: 2px solid #ff533d;
+border: 2px solid rgb(42 39 95);
 }
 .center{
     text-align: center;
@@ -175,7 +175,7 @@ border: 2px solid #ff533d;
 .contact-form{
     background-color: 	#ebebd2;
  border-radius: 5px;
- border: 2px solid #ff533d;
+ border: 2px solid rgb(42 39 95);
  max-width: 480px;
  padding: 5px 15px 30px 15px;
  
